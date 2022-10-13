@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    
+
     width: 200px;
 }
 
@@ -37,16 +37,18 @@ header {
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
-    .big-logo{
+    .big-logo {
         max-width: 400px;
     }
-    main{
+
+    main {
         padding: 50px;
         margin: 0;
     }
 
-    .front-page{
+    .front-page {
         width: 100px;
     }
+}
