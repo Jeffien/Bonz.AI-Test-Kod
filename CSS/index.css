@@ -1,31 +1,52 @@
-html body{
+html body {
     background-image: url(/Assets/posters/poster.jpg);
-    background-repeat: unset;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
     max-width: 1440px;
-    display: grid;
-    flex-direction: column;
+
 }
 
-header{
+header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: linear-gradient(#2b3350a4, #14095256, #27113b6e);
+    padding: 50px;
 }
 
-.logo{
+
+.grid-container-h {
+    align-items: center;
+
+}
+
+.logo {
     
     width: 200px;
-    
 }
 
-.links{
+.links {
     text-align: start;
-    color: aliceblue
+    color: aliceblue;
+    justify-items: center;
 }
 
-.list-menu{
-    justify-items: start;
+.list-menu {
+    justify-items: end;
 }
+
+
+@media only screen and (max-width: 600px){
+
+    .big-logo{
+        max-width: 400px;
+    }
+    main{
+        padding: 50px;
+        margin: 0;
+    }
+
+    .front-page{
+        width: 100px;
+    }

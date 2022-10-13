@@ -9,7 +9,7 @@ main{
     margin-top: 0;
 }
 
-.home-logo{
+.big-logo{
     grid-area: logo;
     width: 500px;
     align-items: center;
@@ -19,6 +19,8 @@ main{
     grid-area: text;
     text-align: center;
 }
+
+
 .front-page{
     width: 1000px;
     border-radius: 130px;
