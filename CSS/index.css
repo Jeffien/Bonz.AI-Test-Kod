@@ -1,0 +1,5 @@
+html body{
+    background-image: url(/Assets/posters/poster.jpg);
+    background-repeat: unset;
+    background-attachment: fixed ;
+}
