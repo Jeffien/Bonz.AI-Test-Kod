@@ -5,15 +5,13 @@ html body{
     margin: 0;
     padding: 0;
     max-width: 1440px;
-    display: flex;
+    display: grid;
     flex-direction: column;
 }
 
-.header-all-pages{
+header{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: stretch;
+    flex-direction: row;
     background: linear-gradient(#2b3350a4, #14095256, #27113b6e);
 }
 
@@ -31,4 +29,3 @@ html body{
 .list-menu{
     justify-items: start;
 }
-
