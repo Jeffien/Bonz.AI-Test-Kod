@@ -1,11 +1,11 @@
 html body {
     background-image: url(/Assets/posters/poster.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-attachment: fixed;/*
+    background-size: contain;*/
     margin: 0;
     padding: 0;
-    max-width: 1440px;
-
+    max-width: 1678px;
 }
 
 header {
@@ -13,8 +13,18 @@ header {
     flex-direction: column;
     background: linear-gradient(#2b3350a4, #14095256, #27113b6e);
     padding: 50px;
+    max-width: 100%;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #faebd765;
+    margin: 100px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
 
 .grid-container-h {
     align-items: center;
@@ -48,7 +58,8 @@ header {
         margin: 0;
     }
 
-    .front-page {
-        width: 100px;
+
+    html body{
+        background-size: contain;
     }
 }
