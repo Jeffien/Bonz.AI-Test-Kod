@@ -2,7 +2,7 @@
 
 .big-logo{
     grid-area: logo;
-    width: 500px;
+    max-width: 500px;
     align-items: center;
 }
 
@@ -12,25 +12,68 @@
 }
 
 
-.about-pictures {
-
+.about-pictures1 {
     width: 200px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
 }
-
 .day {
-    grid-area: left;
-    justify-items: left;
+    width: 400px;
+    border-radius: 20px;
 }
 
 .night {
-    justify-items: right;
-    grid-area: right;
+    width: 400px;
+    border-radius: 20px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-        "left right";
+.about-pictures1 .night1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night1{
+    display: inline;
+}
+
+.about-pictures1 .night2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night2{
+    display: inline;
+}
+
+.about-pictures1 .night3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night3{
+    display: inline;
+}
+
+.about-pictures1 .night4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night4{
+    display: inline;
 }
 
