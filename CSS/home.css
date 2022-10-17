@@ -1,52 +1,56 @@
-
-
-.big-logo{
+.big-logo {
     grid-area: logo;
     width: 500px;
     align-items: center;
 }
 
-.home-text{
+.home-text {
     grid-area: text;
     text-align: center;
 }
 
-
-.front-page{
+.picture-hover {
     width: 1000px;
     border-radius: 130px;
-    grid-area: picture;
-    align-items: center;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+.front-page {
+    width: 1000px;
+    border-radius: 130px;
+}
+
+.front-page-hover {
+    width: 1000px;
+    border-radius: 130px;
 
 }
 
 
-.front-page-hover{
+.picture-hover .front-page-hover {
+    display: none;
+    position: absolute;
     top: 0;
-    right: 0;
     left: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity .2s;
-    width: 1000px;
-    border-radius: 130px;
-    grid-area: picture;
-    align-items: center;
-
+    z-index: 99;
 }
-.front-page-hover:hover{
-    opacity: 1;
-    align-items: center;
+.picture-hover:hover .front-page-hover{
+    display: inline;
 }
 
 @media only screen and (max-width: 600px) {
-    
+
     .front-page {
         width: 400px;
         border-radius: 75px;
+        margin: 0;
     }
-    .front-page-hover{
+
+    .front-page-hover {
         width: 400px;
         border-radius: 75px;
+        margin: 0;
     }
 }

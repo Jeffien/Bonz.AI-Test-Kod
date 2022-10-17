@@ -1,20 +1,27 @@
 html body {
     background-image: url(/Assets/posters/poster.jpg);
     background-repeat: repeat-y;
-    background-attachment: fixed;/*
-    background-size: contain;*/
-    margin: 0;
+    background-attachment: fixed;
     padding: 0;
+    margin: 0;
     max-width: 1678px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "logo . ."
+    ". buttons ."
+    ". . burger";
     background: linear-gradient(#2b3350a4, #14095256, #27113b6e);
     padding: 50px;
     max-width: 100%;
 }
+
+
 main{
     display: flex;
     flex-direction: column;
@@ -32,7 +39,7 @@ main{
 }
 
 .logo {
-
+    grid-area: logo;
     width: 200px;
 }
 
@@ -40,10 +47,12 @@ main{
     text-align: start;
     color: aliceblue;
     justify-items: center;
+    grid-area: buttons;
 }
 
 .list-menu {
     justify-items: end;
+    grid-area: burger;
 }
 
 
