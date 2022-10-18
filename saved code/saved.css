@@ -1,0 +1,85 @@
+
+.day-hover2:hover {
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.day-hover1:hover .night2 {
+    display: inline;
+}
+
+.day-hover3:hover {
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.day-hover1:hover .night3 {
+    display: inline;
+}
+.day-hover4:hover {
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.day-hover1:hover .night4 {
+    display: inline;
+}
+
+
+
+
+.about-pictures1 .night1 {
+    display: none;
+    
+}
+
+.about-pictures1:hover .night1{
+    display: inline;
+}
+
+.about-pictures1 .night2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night2{
+    display: inline;
+}
+
+.about-pictures1 .night3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night3{
+    display: inline;
+}
+
+.about-pictures1 .night4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-pictures1:hover .night4{
+    display: inline;
+}
+
+
+
+
+

@@ -1,24 +1,22 @@
-
-
-.big-logo{
+.big-logo {
     grid-area: logo;
     max-width: 500px;
     align-items: center;
 }
 
-.home-text{
+.home-text {
     grid-area: text;
     text-align: center;
 }
 
-
-.about-pictures1 {
-    width: 200px;
+.day {
+    width: 400px;
     border-radius: 20px;
     position: relative;
     display: inline-block;
     margin: 50px;
 }
+
 .day {
     width: 400px;
     border-radius: 20px;
@@ -27,53 +25,20 @@
 .night {
     width: 400px;
     border-radius: 20px;
-}
-
-.about-pictures1 .night1 {
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
 }
 
-.about-pictures1:hover .night1{
+
+.day:hover {
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.day:hover .night {
     display: inline;
 }
-
-.about-pictures1 .night2 {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.about-pictures1:hover .night2{
-    display: inline;
-}
-
-.about-pictures1 .night3 {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.about-pictures1:hover .night3{
-    display: inline;
-}
-
-.about-pictures1 .night4 {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.about-pictures1:hover .night4{
-    display: inline;
-}
-
