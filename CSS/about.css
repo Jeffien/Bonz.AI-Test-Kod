@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.day {
+.day-hover1 {
     width: 400px;
     border-radius: 20px;
     position: relative;
@@ -21,10 +21,12 @@
     width: 400px;
     border-radius: 20px;
 }
-
-.night {
+.night{
     width: 400px;
     border-radius: 20px;
+}
+.day-hover1 .night {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -32,13 +34,42 @@
 }
 
 
-.day:hover {
-    width: 400px;
-    border-radius: 20px;
-    position: relative;
-    display: inline-block;
-    margin: 50px;
+.day-to-night1:hover .night1 {
+    display: inline;
 }
-.day:hover .night {
+.day-to-night2 .night2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night2:hover .night2 {
+    display: inline;
+}
+.day-to-night3 .night3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night3:hover .night3 {
+    display: inline;
+}
+.day-to-night4 .night4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night4:hover .night4 {
     display: inline;
 }
