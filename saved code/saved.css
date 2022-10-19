@@ -91,3 +91,202 @@
     display: inline-block;
     margin: 50px;
 }
+
+
+
+
+
+
+
+
+
+.day-to-night1 {
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+/*
+.day {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.night {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.day-to-night1 .night1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night1:hover .night1 {
+    display: inline;
+}
+
+.day-to-night2 {
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+.day-to-night2 .night2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night2:hover .night2 {
+    display: inline;
+}
+
+.day-to-night3 {
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+.day-to-night3 .night3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night3:hover .night3 {
+    display: inline;
+}
+
+.day-to-night4 {
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+.day-to-night4 .night4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.day-to-night4:hover .night4 {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+/* .front-page {
+    width: 1000px;
+    border-radius: 130px;
+}
+
+.front-page-hover {
+    width: 1000px;
+    border-radius: 130px;
+
+}
+
+.home-text {
+    grid-area: text;
+    text-align: center;
+}
+
+.picture-hover {
+    width: 1000px;
+    border-radius: 130px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+
+.picture-hover .front-page-hover {
+    display: none;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.picture-hover:hover .front-page-hover{
+    display: inline;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.image-hover2 {
+    background-image: url('../Assets/photos/06-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 900px;
+    height: 800px;
+}
+
+.image-hover2:hover {
+    background-image: url('../Assets/photos/06-night.jpg');
+}*/
+
+
+/* /.test-position {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    
+}
+
+.test-position p {
+    align-self: flex-end;
+}  */
+
+
+
+
+
+   /* .image-hover2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        height: 400px;
+    } */

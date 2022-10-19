@@ -1,0 +1,237 @@
+html body {
+    background-image: url(/Assets/posters/poster.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#2b3350a4, #14095256, #27113b6e);
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+.menu-links{
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-bottom: 0;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    grid-area: main;
+    background-color: #979797b0;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.big-logo {
+    display: flex;
+
+    align-items: center;
+}
+
+.links {
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+
+.home-grid {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5em;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.image-hover {
+    background-image: url('../Assets/photos/05-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px; 
+    width: 500px;
+}
+
+.image-hover:hover {
+    background-image: url('../Assets/photos/05-night.jpg');
+}
+/*home ends*/
+
+
+.picture-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    margin: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.background-images{
+    background-color: rgba(250, 235, 215, 0.39);
+    padding: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.day{
+    border-radius: 75px;
+}
+
+.day-to-night1 {
+    background-image: url('../Assets/photos/01-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.day-to-night1:hover {
+    background-image: url('../Assets/photos/01-night.jpg');
+}
+
+.day-to-night2 {
+    background-image: url('../Assets/photos/02-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.day-to-night2:hover {
+    background-image: url('../Assets/photos/02-night.jpg');
+}
+
+.day-to-night3 {
+    background-image: url('../Assets/photos/03-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.day-to-night3:hover {
+    background-image: url('../Assets/photos/03-night.jpg');
+}
+
+.day-to-night4 {
+    background-image: url('../Assets/photos/04-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.day-to-night4:hover {
+    background-image: url('../Assets/photos/04-night.jpg');
+}
+.booking-links{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    justify-items: flex-end;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #2b3350a4, #14095256, #27113b6e);
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .home-grid {
+        align-items: center;
+        text-align: center;
+    }
+
+    .big-logo {
+        max-width: 400px;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    main {
+        padding: 50px;
+        margin: 0;
+    }
+
+    html body {
+        background-size: contain;
+    }
+
+
+    .image-hover {
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        height: 400px;
+    }
+
+    .picture-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .background-images{
+        margin: 50px;
+    }
+}

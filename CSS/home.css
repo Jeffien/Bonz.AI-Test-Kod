@@ -1,56 +1,45 @@
-.big-logo {
-    grid-area: logo;
-    width: 500px;
-    align-items: center;
-}
-
-.home-text {
-    grid-area: text;
-    text-align: center;
-}
-
-.picture-hover {
-    width: 1000px;
-    border-radius: 130px;
-    position: relative;
-    display: inline-block;
-    margin: 50px;
-}
-
-.front-page {
-    width: 1000px;
-    border-radius: 130px;
-}
-
-.front-page-hover {
-    width: 1000px;
-    border-radius: 130px;
-
-}
 
 
-.picture-hover .front-page-hover {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
+.home-grid {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5em;
 }
-.picture-hover:hover .front-page-hover{
-    display: inline;
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+    padding: 1rem;
+} 
+ .image-wrapper{
+    background-size: contain;
+ }
+
+.image-hover {
+    background-image: url('../Assets/photos/05-day.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 900px;
+    height: 800px;
 }
+
+.image-hover:hover {
+    background-image: url('../Assets/photos/05-night.jpg');
+}
+
 
 @media only screen and (max-width: 600px) {
 
-    .front-page {
+ 
+    .image-hover  {
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
         width: 400px;
-        border-radius: 75px;
-        margin: 0;
-    }
+        height: 400px;
 
-    .front-page-hover {
-        width: 400px;
-        border-radius: 75px;
-        margin: 0;
     }
 }
