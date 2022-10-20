@@ -49,7 +49,8 @@ main {
 }
 
 .home-link:hover{
-    background-color: rgb(83, 30, 83);
+    background-color: #5ef8bd;
+    color: black;
 }
 
 .home-link{
@@ -58,7 +59,8 @@ main {
 }
 
 .about-link:hover{
-    background-color: rgb(83, 30, 83);
+    background-color: #5ef8bd;
+    color: black;
 }
 
 .about-link{
@@ -67,7 +69,8 @@ main {
 }
 
 .book-link:hover{
-    background-color: rgb(83, 30, 83);
+    background-color: #5ef8bd;
+    color: black;
 }
 
 .book-link{
@@ -196,6 +199,7 @@ main {
     width: 400px;
     height: 200px;
     border-radius: 100px;
+    
 }
 
 .day-to-night4:hover {
