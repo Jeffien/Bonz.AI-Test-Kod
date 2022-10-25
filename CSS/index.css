@@ -21,7 +21,6 @@ header {
     margin-top: 20px;
     text-align: center;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -42,6 +41,9 @@ main {
     margin-top: 0;
     grid-area: main;
     background-color: #979797b0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 
@@ -153,6 +155,9 @@ main {
     height: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .day {
@@ -246,10 +251,96 @@ main {
     background-image: url('../Assets/photos/07-night.jpg');
 }
 
-.booking-form {
+.booking-card {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    background-color: #f0ffff88;
+    padding: 20px;
+}
+
+.booking-form {
+    display: grid;
+    background-color: #9e85658e;
+    padding: 50px;
+}
+
+.contact-us {
+    background-color: #f0ffff88;
+    padding: 50px;
+    color: black;
+    width: 400px;
+    justify-content: center;
+
+
+}
+
+.contact-form {
+    display: grid;
+    background-color: #9e85658e;
+    padding: 20px;
+    border: 2px;
+    border-color: #804f2d9a;
+    border-style: solid;
+    box-shadow: 5px 10px #35201241;
+    width: 350px;
+    justify-self: center;
+    /* justify-items: center; */
+}
+
+.contact-us h1 {
+    text-align: center;
+}
+
+.contact-form h3 {
+    text-align: center;
+}
+
+input {
+    height: 30px;
+}
+
+input[type=text]:focus {
+    background-color: #5ef8bd85;
+}
+
+input[type=email]:focus {
+    background-color: #5ef8bd85;
+}
+
+input[type=tel]:focus {
+    background-color: #5ef8bd85;
+}
+
+input[type=message] {
+    height: 150px;
+}
+
+.send-button {
+    justify-self: center;
+}
+
+input[type=submit] {
+    background-color: #5ef8bd;
+}
+
+.booking-form {
+    display: grid;
+    background-color: #9e85658e;
+    padding: 20px;
+    border: 2px;
+    border-color: #804f2d9a;
+    border-style: solid;
+    box-shadow: 5px 10px #35201241;
+
+    justify-self: center;
+}
+
+.send-button2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input .villkor:checked {
+    background-color: #5ef8bd;
 }
 
 footer {
@@ -347,6 +438,15 @@ footer {
     .list-menu {
         margin-right: 10px;
     }
+
+    .contact-form {
+        display: grid;
+    }
+
+    .picture-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -399,7 +499,10 @@ footer {
         flex-direction: column;
     }
 
-
+    .picture-container {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
@@ -431,8 +534,20 @@ footer {
 
 
     html body {
-        background-size: cover;
+        background-size: contain;
     }
+
+    .picture-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-hover{
+        height: 400px;
+        width: 720px;
+    }
+
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -455,11 +570,27 @@ footer {
         margin-left: 75px;
     }
 
-    .about-view {
+    .picture-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 5px;
+        margin: 60px;
+
     }
+
+    .background-images {
+        padding: 15px;
+
+    }
+    .image-hover{
+        height: 500px;
+        width: 850px;
+    }
+    html body {
+        background-size: cover;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -512,4 +643,8 @@ footer {
         gap: 10px;
     }
 
+    .image-hover{
+        height: 600px;
+        width: 1050px;
+    }
 }
